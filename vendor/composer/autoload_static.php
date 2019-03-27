@@ -135,6 +135,10 @@ class ComposerStaticInit0f87e3fd14368a4a6f90dc5d519db081
             'Composer\\CaBundle\\' => 18,
             'Composer\\' => 9,
         ),
+        'B' => 
+        array (
+            'Barryvdh\\LaravelIdeHelper\\' => 26,
+        ),
         'A' => 
         array (
             'Arrilot\\Widgets\\' => 16,
@@ -397,6 +401,10 @@ class ComposerStaticInit0f87e3fd14368a4a6f90dc5d519db081
         array (
             0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
         ),
+        'Barryvdh\\LaravelIdeHelper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src',
+        ),
         'Arrilot\\Widgets\\' => 
         array (
             0 => __DIR__ . '/..' . '/arrilot/laravel-widgets/src',
@@ -445,6 +453,13 @@ class ComposerStaticInit0f87e3fd14368a4a6f90dc5d519db081
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
         ),
+        'B' => 
+        array (
+            'Barryvdh' => 
+            array (
+                0 => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
@@ -455,6 +470,7 @@ class ComposerStaticInit0f87e3fd14368a4a6f90dc5d519db081
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\SiteController' => __DIR__ . '/../..' . '/app/Http/Controllers/SiteController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
@@ -489,6 +505,41 @@ class ComposerStaticInit0f87e3fd14368a4a6f90dc5d519db081
         'Arrilot\\Widgets\\WidgetGroupCollection' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetGroupCollection.php',
         'Arrilot\\Widgets\\WidgetId' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetId.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+        'Barryvdh\\LaravelIdeHelper\\Alias' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Alias.php',
+        'Barryvdh\\LaravelIdeHelper\\Console\\EloquentCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/EloquentCommand.php',
+        'Barryvdh\\LaravelIdeHelper\\Console\\GeneratorCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/GeneratorCommand.php',
+        'Barryvdh\\LaravelIdeHelper\\Console\\MetaCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/MetaCommand.php',
+        'Barryvdh\\LaravelIdeHelper\\Console\\ModelsCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/ModelsCommand.php',
+        'Barryvdh\\LaravelIdeHelper\\Eloquent' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Eloquent.php',
+        'Barryvdh\\LaravelIdeHelper\\Generator' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Generator.php',
+        'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/IdeHelperServiceProvider.php',
+        'Barryvdh\\LaravelIdeHelper\\Macro' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Macro.php',
+        'Barryvdh\\LaravelIdeHelper\\Method' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Method.php',
+        'Barryvdh\\Reflection\\DocBlock' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock.php',
+        'Barryvdh\\Reflection\\DocBlock\\Context' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Context.php',
+        'Barryvdh\\Reflection\\DocBlock\\Description' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Description.php',
+        'Barryvdh\\Reflection\\DocBlock\\Location' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Location.php',
+        'Barryvdh\\Reflection\\DocBlock\\Serializer' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Serializer.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\AuthorTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/AuthorTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\CoversTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/CoversTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\DeprecatedTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/DeprecatedTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\ExampleTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ExampleTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\LinkTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/LinkTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\MethodTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/MethodTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\ParamTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ParamTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\PropertyReadTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyReadTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\PropertyTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\PropertyWriteTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyWriteTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\ReturnTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ReturnTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\SeeTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SeeTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\SinceTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SinceTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\SourceTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SourceTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\ThrowsTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ThrowsTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\UsesTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/UsesTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\VarTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/VarTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Tag\\VersionTag' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/VersionTag.php',
+        'Barryvdh\\Reflection\\DocBlock\\Type\\Collection' => __DIR__ . '/..' . '/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Type/Collection.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\CarbonPeriod' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonPeriod.php',
