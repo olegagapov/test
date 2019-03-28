@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Таня я тебя люблю
+                    Танюша я тебя люблю! Твой Олег.
                 </div>
 
 
