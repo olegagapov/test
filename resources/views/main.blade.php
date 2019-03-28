@@ -84,7 +84,7 @@
 
                 <div class="links">
 
-                    <a href="http://tan.oleg.ru.net/name/{{$id}}/{{$i+1}}">{{$id}} {{$ii}}</a>
+                    <a href="/name/{{$id}}/{{$i+1}}">{{$id}} {{$ii}}</a>
 
                 </div>
             </div>
