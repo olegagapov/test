@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+        {{--<link rel="shortcut icon" href="http://tan.oleg.ru.net/favicon.ico" type="image/x-icon"/>--}}
+        <link rel="shortcut icon" href="{{{ asset('favicon.ico') }}}">
+
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -19,6 +23,7 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+                background-image: url(http://tan.oleg.ru.net/images/init/heart.gif);
             }
 
             .full-height {
@@ -80,7 +85,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     {{--Танюша я тебя люблю! Твой Олег.--}}
-                    С пятницей тебя, любимая.
+                    С пятницей тебя, любимая. &#127801;
                 </div>
 
 
