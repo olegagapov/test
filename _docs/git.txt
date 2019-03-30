@@ -10,6 +10,8 @@ git push --set-upstream test to-russian находясь на ветке to-russ
  git remote rm test
 
 
+git branch
+
 git branch --merged     - ??
 git branch --no-merged     - ??
 
