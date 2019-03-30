@@ -1,0 +1,18 @@
+ git status
+ git add .
+ git commit -m comment
+ git push
+git push --set-upstream test to-russian находясь на ветке to-russian создается удал. ветка to-russian
+
+
+ git remote add test https://github.com/olegagapov/test.git
+ git remote -v  просмотр удаленных репозиториев
+ git remote rm test
+
+
+git branch --merged     - ??
+git branch --no-merged     - ??
+
+git checkout master    - переход на ветку мастер
+git checkout -b to-russian test/to-russian   -:созд ветку to-russian и fetch test/to-russian в нее
+git branch -D to-russian   - находясь на ветке, например, master удалю ветку to-russian
