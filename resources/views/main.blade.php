@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel <br>{{'Имя - '.$id.$ii}}
                 </div>
 
                 <div class="links">

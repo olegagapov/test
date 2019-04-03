@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/name/{id}', 'SiteController@main');
-Route::get('/name/{id}/{i}', 'SiteController@main');
+Route::get('name/{id}', 'SiteController@main');
+Route::get('name/{id}/{i}', 'SiteController@main');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

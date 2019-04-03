@@ -10,7 +10,8 @@ class SiteController extends Controller
     {
          $ii = ''; if($i !== 0) $ii = $i;
         return view('main', [
-            'id' => $id,
+            //'name' => $name,
+                        'id' => $id,
             'i' => $i,
             'ii' => $ii
         ]);

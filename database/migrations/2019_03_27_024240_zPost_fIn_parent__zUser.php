@@ -15,6 +15,7 @@ class ZPostFInParentZUser extends Migration{
             $table->string('comment')->default('')->comment('комментарий');
             $table->string('description')->default('')->comment('описание');
             $table->smallInteger('active')->default(0);
+            $table->softDeletes();
             $table->timestamps();
 
 
@@ -35,6 +36,7 @@ class ZPostFInParentZUser extends Migration{
             $table->string('comment')->default('')->comment('комментарий');
             $table->string('description')->default('')->comment('описание');
             $table->smallInteger('active')->default(0);
+            $table->softDeletes();
             $table->timestamps();
 
         
@@ -48,6 +50,7 @@ class ZPostFInParentZUser extends Migration{
         Schema::create('z_User___z_Post', function (Blueprint $table) {
                 $table->integer('z_Post_id')->unsigned();
                 $table->integer('z_User_id')->unsigned();
+                $table->softDeletes();
                   
 
         $table->primary(['z_Post_id', 'z_User_id']);
